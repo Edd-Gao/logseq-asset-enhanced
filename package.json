@@ -1,0 +1,31 @@
+{
+  "name": "logseq-copy-asset",
+  "version": "1.0.0",
+  "description": "A simple plugin that allows you to easily copy the URL of a link, enhancing workflow efficiency.",
+  "main": "dist/index.html",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "build": "bun run ./build.ts"
+  },
+  "logseq": {
+    "id": "logseq-copy-asset",
+    "title": "Copy Asset",
+    "icon": "./icon.png"
+  },
+  "keywords": [],
+  "author": "RubenSmn",
+  "license": "MIT",
+  "dependencies": {
+    "@logseq/libs": "^0.0.15",
+    "bun": "^1.0.20",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/file-saver": "^2.0.7",
+    "@types/node": "^20.10.5",
+    "bun-plugin-html": "^1.2.0"
+  }
+}
